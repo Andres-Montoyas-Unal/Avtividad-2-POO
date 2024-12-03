@@ -1,8 +1,8 @@
-codigo=input("Ingrese el codigo del Empleado")
-nombres=input("Ingrese el nombre del Empleado")
-horas_trbajadas=input("Ingrese las horas trabajadas por el empleado")
-valor_hora=input("Ingrese el valor de la hora")
-porcentaje=input("Ingrese el porcentaje de retemcion en la fuente")
+codigo=int(input("Ingrese el codigo del Empleado: "))
+nombres=input("Ingrese el nombre del Empleado: ")
+horas_trbajadas=int(input("Ingrese las horas trabajadas por el empleado: "))
+valor_hora=float(input("Ingrese el valor de la hora: "))
+porcentaje=int(input("Ingrese el porcentaje de retemcion en la fuente: "))
 
 salario_bruto=horas_trbajadas*valor_hora
 salario_neto=salario_bruto-(salario_bruto*(porcentaje/100))
