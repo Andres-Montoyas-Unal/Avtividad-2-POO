@@ -1,0 +1,6 @@
+a=int(input("Ingrese el valro de A"))
+b=int(input("Ingrese el valro de B"))
+c=int(input("Ingrese el valro de C"))
+solucion1=((-b)+((b**2-4*a*c)**0.5))/(2*a)
+solucion2=((-b)-((b**2-4*a*c)**0.5))/(2*a)
+print(f"Las soluciones de la ecuacion de segundo grado son: 1:{solucion1} y 2:{solucion2}")
